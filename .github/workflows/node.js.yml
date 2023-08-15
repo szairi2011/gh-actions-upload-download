@@ -27,7 +27,9 @@ jobs:
         path: dist
   release:
       runs-on: ubuntu-latest
-
+      permissions:
+        contents: write
+        
       needs: build
 
       steps: 
