@@ -34,7 +34,7 @@ jobs:
       steps: 
         - uses: actions/download-artifact@v3
           with:
-            name: build
+            name: Build
             path: build
         - uses: ncipollo/release-action@v1
           with:
